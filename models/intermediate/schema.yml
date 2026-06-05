@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_order_items
+    description: Orders enriched with customer, product and revenue fields.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: line_revenue
+        description: Quantity multiplied by product unit price.
+        tests:
+          - not_null

@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Cleaned customer data from the raw customer seed.
+    columns:
+      - name: customer_id
+        description: Unique customer identifier.
+        tests:
+          - unique
+          - not_null
+      - name: customer_name
+        tests:
+          - not_null
+      - name: region
+        tests:
+          - not_null
+
+  - name: stg_products
+    description: Cleaned product catalogue with product categories and prices.
+    columns:
+      - name: product_id
+        description: Unique product identifier.
+        tests:
+          - unique
+          - not_null
+      - name: product_name
+        tests:
+          - not_null
+      - name: unit_price
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: Cleaned sales orders.
+    columns:
+      - name: order_id
+        description: Unique order identifier.
+        tests:
+          - unique
+          - not_null
+      - name: order_date
+        tests:
+          - not_null
+      - name: customer_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: product_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+      - name: sales_channel
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['in_store', 'online']

@@ -1,0 +1,11 @@
+product_id,product_name,category,unit_price
+101,Espresso,Coffee,2.4
+102,Latte,Coffee,3.5
+103,Cappuccino,Coffee,3.4
+104,Flat White,Coffee,3.3
+105,Tea,Tea,2.2
+106,Iced Coffee,Cold Drinks,3.8
+107,Croissant,Bakery,2.75
+108,Blueberry Muffin,Bakery,3.1
+109,Avocado Toast,Food,6.5
+110,Granola Bowl,Food,5.8

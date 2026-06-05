@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: mart_monthly_sales
+    description: Monthly sales metrics for reporting.
+    columns:
+      - name: order_month
+        tests:
+          - unique
+          - not_null
+      - name: total_revenue
+        tests:
+          - not_null
+
+  - name: mart_product_performance
+    description: Product-level sales performance.
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+      - name: total_revenue
+        tests:
+          - not_null
+
+  - name: mart_customer_metrics
+    description: Customer-level order and spend metrics.
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: total_spend
+        tests:
+          - not_null

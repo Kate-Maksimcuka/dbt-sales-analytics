@@ -1,0 +1,13 @@
+customer_id,customer_name,region,city,total_orders,total_items_bought,total_spend,average_order_value,first_order_date,latest_order_date
+8,Leo,Midlands,Birmingham,37,53.0,195.35,5.28,2026-01-07,2026-05-27
+3,Olivia,North,Leeds,25,35.0,115.35,4.61,2026-01-08,2026-05-30
+11,Sofia,Midlands,Nottingham,39,50.0,187.65,4.81,2026-01-12,2026-05-29
+9,Grace,Wales,Cardiff,34,50.0,190.8,5.61,2026-01-05,2026-05-30
+2,Liam,South,London,44,58.0,242.05,5.5,2026-01-11,2026-05-30
+1,Emma,North,Manchester,40,55.0,187.3,4.68,2026-01-04,2026-05-24
+7,Mia,North,Liverpool,26,33.0,124.7,4.8,2026-01-02,2026-05-28
+4,Noah,West,Bristol,35,45.0,154.45,4.41,2026-01-01,2026-05-24
+5,Ava,South,Brighton,28,41.0,152.0,5.43,2026-01-05,2026-05-26
+10,Jack,South,Oxford,38,66.0,241.8,6.36,2026-01-03,2026-05-04
+12,Freddie,North,York,35,46.0,158.3,4.52,2026-01-03,2026-05-30
+6,Isla,Scotland,Edinburgh,37,50.0,197.25,5.33,2026-01-04,2026-05-25

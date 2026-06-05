@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw coffee shop sales CSV files loaded as dbt seeds.
+    tables:
+      - name: raw_customers
+        description: Customer details and signup dates.
+      - name: raw_products
+        description: Product catalogue and prices.
+      - name: raw_orders
+        description: Individual sales orders.

@@ -1,0 +1,14 @@
+dbt build completed successfully
+
+Result summary:
+PASS=35
+WARN=0
+ERROR=0
+SKIP=0
+TOTAL=35
+
+Objects built/tested:
+- 3 seeds
+- 4 view models
+- 3 table models
+- 25 data tests

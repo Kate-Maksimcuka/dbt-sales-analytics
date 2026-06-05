@@ -1,0 +1,13 @@
+customer_id,customer_name,region,city,signup_date
+1,Emma,North,Manchester,2025-01-12
+2,Liam,South,London,2025-01-18
+3,Olivia,North,Leeds,2025-02-02
+4,Noah,West,Bristol,2025-02-17
+5,Ava,South,Brighton,2025-03-03
+6,Isla,Scotland,Edinburgh,2025-03-14
+7,Mia,North,Liverpool,2025-03-28
+8,Leo,Midlands,Birmingham,2025-04-08
+9,Grace,Wales,Cardiff,2025-04-20
+10,Jack,South,Oxford,2025-05-01
+11,Sofia,Midlands,Nottingham,2025-05-15
+12,Freddie,North,York,2025-05-26
