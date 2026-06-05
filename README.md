@@ -70,6 +70,12 @@ flowchart LR
     G --> J[mart_customer_metrics]
 ```
 
+### dbt Docs Lineage Screenshot
+
+The dbt docs lineage graph shows how the raw seed files flow into staging models, then into the intermediate order-items model, and finally into the reporting marts.
+
+![dbt lineage graph](outputs/screenshots/dbt_lineage_graph.png)
+
 ## Final Mart Tables
 
 ### `mart_monthly_sales`
